@@ -28,14 +28,14 @@ function SignUp() {
                       <div className="mt-20 flex items-center justify-center ">
                         <img src={Card} alt="" className=" " />
                       </div>
-                      <div className=" mt-10">
+                      <div className=" sm:mt-10 mt-10 px-2">
                         <h4 class="mb-6 text-xl font-bold sm:text-3xl ">
-                          Speady, Easy and Fast
+                        Speady, Easy and Fast
                         </h4>
                         <p class="text-xs text-gray-200 sm:text-sm">
                           Overpay help you set saving goals, earn cash back
                           offers, Go to disclaimer for more details and get
-                          paychecks up to two days early. Get a $20 bonus when
+                          paychecks up to two days early. Get a <span className="text-yellow-400">$20</span> bonus when
                           you receive qualifying direct deposits
                         </p>
                       </div>
@@ -44,7 +44,7 @@ function SignUp() {
                       </div>
                     </div>
                   </div>
-                  <div class=" w-full md:w-2/3 ">
+                  <div class=" w-full lg:w-2/3 ">
                     <div className="my-10 flex flex-col items-center justify-center ">
                       <form className="w-full  text-center md:w-2/5 ">
                         <div className=" my-7 ">
