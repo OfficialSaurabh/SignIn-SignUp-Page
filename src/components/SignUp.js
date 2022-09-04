@@ -10,13 +10,13 @@ import { FaRegEyeSlash } from "react-icons/fa";
 function SignUp() {
   return (
     <div>
-      <section class=" h-full px-5 sm:px-20 md:h-screen  ">
-        <div class=" container h-full  ">
-          <div class="g-6  flex h-full flex-wrap items-center justify-center text-gray-800">
-            <div class=" w-full ">
-              <div class=" bg-white ">
-                <div class="g-0 items-center justify-center lg:flex  lg:flex-wrap ">
-                  <div class=" relative flex flex-1  items-center bg-secondary-color">
+      <section className=" h-full px-5 sm:px-20 md:h-screen  ">
+        <div className=" container h-full  ">
+          <div className="g-6  flex h-full flex-wrap items-center justify-center text-gray-800">
+            <div className=" w-full ">
+              <div className=" bg-white ">
+                <div className="g-0 items-center justify-center lg:flex  lg:flex-wrap ">
+                  <div className=" relative flex flex-1  items-center bg-secondary-color">
                     <img src={Img} alt="" className=" object-cover  " />
                     <img
                       src={Logo}
@@ -24,15 +24,15 @@ function SignUp() {
                       className=" absolute top-6 left-7 "
                     />
 
-                    <div class="absolute text-center text-white md:mx-6 md:p-2">
+                    <div className="absolute text-center text-white md:mx-6 md:p-2">
                       <div className="mt-20 flex items-center justify-center ">
                         <img src={Card} alt="" className=" " />
                       </div>
                       <div className=" sm:mt-10 mt-10 px-2">
-                        <h4 class="mb-6 text-xl font-bold sm:text-3xl ">
+                        <h4 className="mb-6 text-xl font-bold sm:text-3xl ">
                         Speady, Easy and Fast
                         </h4>
-                        <p class="text-xs text-gray-200 sm:text-sm">
+                        <p className="text-xs text-gray-200 sm:text-sm">
                           Overpay help you set saving goals, earn cash back
                           offers, Go to disclaimer for more details and get
                           paychecks up to two days early. Get a <span className="text-yellow-400">$20</span> bonus when
@@ -44,11 +44,11 @@ function SignUp() {
                       </div>
                     </div>
                   </div>
-                  <div class=" w-full lg:w-2/3 ">
+                  <div className=" w-full lg:w-2/3 ">
                     <div className="my-10 flex flex-col items-center justify-center ">
                       <form className="w-full  text-center md:w-2/5 ">
                         <div className=" my-7 ">
-                          <p class="my-2 text-3xl font-bold">
+                          <p className="my-2 text-3xl font-bold">
                             Sign in to Overpay
                           </p>
                           <p className="text-sm text-gray-400">
@@ -69,35 +69,35 @@ function SignUp() {
                           <span className="h-px w-28 bg-gray-300 "></span>
                         </span>
                         <div className="grid grid-cols-2 gap-x-4">
-                          <div class="mb-4 ">
+                          <div className="mb-4 ">
                             <input
                               type="text"
-                              class="form-control m-0 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 text-base font-normal text-gray-700 transition ease-in-out focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
+                              className="form-control m-0 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 text-base font-normal text-gray-700 transition ease-in-out focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
                               id="exampleFormControlInput1"
                               placeholder="First Name"
                             />
                           </div>
-                          <div class="mb-4 ">
+                          <div className="mb-4 ">
                             <input
                               type="text"
-                              class="form-control m-0 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 text-base font-normal text-gray-700 transition ease-in-out focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
+                              className="form-control m-0 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 text-base font-normal text-gray-700 transition ease-in-out focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
                               id="exampleFormControlInput1"
                               placeholder="Last Name"
                             />
                           </div>
                         </div>
-                        <div class="mb-4 ">
+                        <div className="mb-4 ">
                           <input
                             type="text"
-                            class="form-control m-0 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 text-base font-normal text-gray-700 transition ease-in-out focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
+                            className="form-control m-0 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 text-base font-normal text-gray-700 transition ease-in-out focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
                             id="exampleFormControlInput1"
                             placeholder="Username"
                           />
                         </div>
-                        <div class="relative mb-4 flex items-center justify-end">
+                        <div className="relative mb-4 flex items-center justify-end">
                           <input
                             type="password"
-                            class="form-control m-0 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 text-base font-normal text-gray-700 transition ease-in-out focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
+                            className="form-control m-0 block w-full rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 text-base font-normal text-gray-700 transition ease-in-out focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
                             id="exampleFormControlInput1"
                             placeholder="Password"
                           />
@@ -105,8 +105,8 @@ function SignUp() {
                             <FaRegEyeSlash />
                           </span>
                         </div>
-                        <div class="mb-6 flex flex-wrap items-center justify-center ">
-                          <a href="#!" class="text-left text-gray-400 ">
+                        <div className="mb-6 flex flex-wrap items-center justify-center ">
+                          <a href="#!" className="text-left text-gray-400 ">
                             By creating an account, you agreeing to our{" "}
                             <a
                               href="#!"
@@ -124,9 +124,9 @@ function SignUp() {
                             </a>
                           </a>
                         </div>
-                        <div class="mb-5 pt-1 pb-1 text-center">
+                        <div className="mb-5 pt-1 pb-1 text-center">
                           <button
-                            class="text-md mb-3 inline-block w-full rounded-lg bg-secondary-color px-6 py-3 font-medium text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                            className="text-md mb-3 inline-block w-full rounded-lg bg-secondary-color px-6 py-3 font-medium text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
                             type="button"
                             data-mdb-ripple="true"
                             data-mdb-ripple-color="light"
@@ -136,7 +136,7 @@ function SignUp() {
                         </div>
                         <p className="text-lg text-gray-500">
                           Already have an account?
-                          <a class="" href="/">
+                          <a className="" href="/">
                             <span className="font-semibold text-gray-800 hover:text-black ">
                               {" "}
                               Sign In
