@@ -49,7 +49,7 @@ function SignUp() {
                       <form className="w-full  text-center md:w-2/5 ">
                         <div className=" my-7 ">
                           <p className="my-2 text-3xl font-bold">
-                            Sign in to Overpay
+                            Sign up for an account
                           </p>
                           <p className="text-sm text-gray-400">
                             Send, spend and save smarter
